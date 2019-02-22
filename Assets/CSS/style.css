@@ -38,6 +38,7 @@ form input {
     margin-bottom: 20px;
     border: 2px solid #ccc;
     padding: 4px;
+    font-size: 16px;
 }
 nav {
     width: 300px;

@@ -8,21 +8,51 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script src="main.js"></script>
 </head>
-<nav> class="About" </nav>
-<h1>Contact</h1>
+
+<h1>About Me </h1>
 <body>
-    
-    <p>Name:</p>
+    <header>
+        <div class="wrapper">
+            <h1>Devon Galloway</h1>
 
-    <br>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <p>Email:</p>
+    <div class="wrapper">
+        <section id="left-column">
+            <h2>Contact Me</h2>
 
-    <br>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="form-name">
+            
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="form-email">
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="form-message"></textarea>
 
-    <p>Number</p>
+                <button type="submit">Submit Form</button>
+            </form>
+            
+        </section>
+        <aside id="right-column">
 
-    <button type="button" class="btn btn-primary">Submit</button>
+        </aside>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        &copy; Devon Galloway's Page
+    </footer>
     
 </body>
 </html>
